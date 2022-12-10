@@ -1,0 +1,436 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Garden App</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+	
+
+</head>
+<body>
+	<div id="app">
+		<div class="view view-main view-init">
+			
+			<section class="panel panel-left panel-cover" id="panel-left">
+				<div class="info-user">
+					
+					<div class="row">
+						<article class="col-30">
+							<img src="img/profile.png" class="img-fluid" alt="">
+						</article>
+						<article class="col-70">
+							<h4>Marian Bustillo</h4>
+							<p>marianb@gmail.com</p>
+						</article>
+					</div>
+				</div>
+					<div class="list media-list no-margin-top list-panel">
+						<ul>
+							<li>
+								<a href="/home/" class="item-content item-link panel-close">
+									<div class="item-media">
+										<i class="material-icons">home</i>
+									</div>
+									<div class="item-inner">
+										<span class="item-title">Home</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="/brands/" class="item-content item-link panel-close">
+									<div class="item-media">
+										<i class="material-icons">shopping_bag</i>
+									</div>
+									<div class="item-inner">
+										<span class="item-title">Shop</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="/cart/" class="item-content item-link panel-close">
+									<div class="item-media">
+										<i class="material-icons">shopping_cart</i>
+									</div>
+									<div class="item-inner">
+										<span class="item-title">My Orders</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="/favorites/" class="item-content item-link panel-close">
+									<div class="item-media">
+										<i class="material-icons">favorite</i>
+									</div>
+									<div class="item-inner">
+										<span class="item-title">Favorites</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="/settings/" class="item-content item-link panel-close">
+									<div class="item-media">
+										<i class="material-icons">settings</i>
+									</div>
+									<div class="item-inner">
+										<span class="item-title">Settings</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="/about/" class="item-content item-link panel-close">
+									<div class="item-media">
+										<i class="material-icons">help</i>
+									</div>
+									<div class="item-inner">
+										<span class="item-title">Help & About</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+			</section>
+        
+			<section data-name="home" class="page">
+
+			  <!-- Top Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+					<div class="left">
+						<a href="#" class="link panel-open" data-panel=".panel-left"><span class="material-icons">account_circle</span> </a>
+					</div>
+				  	<div class="title">Home</div>
+				</div>
+			  </nav>
+
+
+			  <section class="page-content">
+				  
+				<div class="home-banner">
+				  
+			<div class="toolbar toolbar-home">
+			  <div class="toolbar-inner">
+				<a href="/home/" class="link active">
+					Recommended</a>
+				 <a href="/top/" class="link">
+					Top</a> 
+				 <a href="/indoor/" class="link">
+					Indoor</a>
+				  <a href="/outdoot/" class="link">
+					Outdoor</a>
+			  </div>
+			</div>
+				
+				</div>  
+				  
+				  <div class="row-titles">
+					  
+					<div class="row"> 
+						<article class="col-75">
+							 <h2 class="block-title block-title-medium"> Let's find your <br> plants!</h2>
+						</article>
+						<article class="col-25 text-align-right">
+							 <a href="/brands/" class="block-title margin"> See more </a>
+						</article>	
+				  </div>
+				  </div>
+				  
+				  <div class="block" id="brands">
+				  	<div class="row">
+					  	<article class="col">
+							<div class="card">
+								<div class="card-content card-product">
+									<div class="row">
+										<article class="col-55">
+											<a href="/info-product/"><img src="img/plant_1.png" class="img-fluid" alt=""></a>
+										</article>
+										<article class="col-35">
+											<div class="card-text">
+											<h6 class="title-product">Indoor</h6>
+											<h4 class="title-product">Snake</h4>
+											<p class="price">$84.00</p>
+											</div>
+										</article>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="col">
+							<div class="card">
+								<div class="card-content">
+									<div class="row">
+										<article class="col-55">
+											<a href="/info-product -2/"><img src="img/patterned-plant-pots-with-cereus-cactus.png" class="img-fluid" alt=""></a>
+										</article>
+										<article class="col-35">
+											<div class="card-text">
+											<h6 class="title-product">Outdoor</h6>
+											<h4 class="title-product">Cactus</h4>
+											<p class="price">$84.00</p>
+											</div>
+										</article>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+				  </div>
+				   <div class="row-titles">
+					  
+					<div class="row"> 
+						<article class="col-70">
+							 <h2 class="block-title block-title-best"> Best Sellers</h2>
+						</article>
+						<article class="col-30 text-align-right margin-2">
+							 <a href="/products/" class="block-title"> See more </a>
+						</article>	
+				  </div>
+				  </div>
+				  
+				  <div class="block" id="brands-2">
+				  	<div class="row">
+					  	<article class="col">
+							<div class="card">
+								<div class="card-content card-product">
+									<div class="row">
+										<article class="col-45">
+											<a href="/info-product/"><img src="img/golden-pothos-or-epipremnum-aureum-on-white-table-in-the-living-room-home-and-garden.jpg" class="img-fluid img-marg" alt=""></a>
+										</article>
+										<article class="col-55">
+											<div class="card-text-small">
+											<h4 class="title-product">Snake</h4>
+											<p class="prod-descrip">It's spines don't grow</p>	
+											</div>
+										</article>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="col">
+							<div class="card">
+								<div class="card-content">
+									<div class="row">
+										<article class="col-45">
+											<img src="img/gettyimages-1277571810.jpeg" class="img-fluid img-marg" alt="">
+										</article>
+										<article class="col-55">
+											<div class="card-text-small">
+											<h4 class="title-product">Steph</h4>
+											<p class="prod-descrip">It's spines don't grow</p>		
+											</div>
+										</article>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+				  </div>
+				  <div class="block">
+				  <div class="row">
+					  	<article class="col">
+							<div class="card">
+								<div class="card-content card-product">
+									<div class="row">
+										<article class="col-45">
+											<img src="img/800x800-blanco31-87953af5736472240716292896645896-1024-1024.png" class="img-fluid img-marg" alt="">
+										</article>
+										<article class="col-55">
+											<div class="card-text-small">
+											<h4 class="title-product">Linners</h4>
+											<p class="prod-descrip">It's spines don't grow</p>	
+											</div>
+										</article>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="col">
+							<div class="card">
+								<div class="card-content">
+									<div class="row">
+										<article class="col-45">
+											<img src="img/plant-2.png" class="img-fluid img-marg" alt="">
+										</article>
+										<article class="col-55">
+											<div class="card-text-small">
+											<h4 class="title-product">Money <br> Tree</h4>
+											<p class="prod-descrip">It's spines don't grow</p>		
+											</div>
+										</article>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+					</div>  
+				  <div class="block">
+				  <div class="row">
+					  	<article class="col">
+							<div class="card">
+								<div class="card-content card-product">
+									<div class="row">
+										<article class="col-45">
+											<img src="img/plant-3-2.PNG"  class="img-fluid" alt="">
+										</article>
+										<article class="col-55">
+											<div class="card-text-small">
+											<h4 class="title-product">Flowering <br> cactus</h4>
+											<p class="prod-descrip">It doesn't have spines</p>	
+											</div>
+										</article>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="col">
+							<div class="card">
+								<div class="card-content">
+									<div class="row">
+										<article class="col-45">
+											<img src="img/plant-4.PNG" class="img-fluid img-marg" alt="">
+										</article>
+										<article class="col-55">
+											<div class="card-text-small">
+											<h4 class="title-product"> Lemon <br> Vine</h4>
+											<p class="prod-descrip">It has spines</p>		
+											</div>
+										</article>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+					</div>  
+				</section>
+			</section>
+			<div class="toolbar toolbar-bottom">
+			  <div class="toolbar-inner">
+				<a href="/home/" class="link">
+					<i class="material-icons">home</i></a>
+				  <a href="/brands/" class="link">
+					<i class="material-icons">shopping_bag</i></a>
+				<a href="/cart/" class="link">
+					<i class="material-icons">shopping_cart</i></a>
+				  <a href="/favorites/" class="link">
+					<i class="material-icons">favorite</i></a>
+			  </div>
+			</div>
+		</div>
+		
+		<section class="login-screen modal-in" id="login">
+			  <!-- Default view-page layout -->
+			  <div class="view">
+				<div class="page login-screen-page">
+				  <!-- page-content has additional login-screen content -->
+				<img src="img/login.png" alt="">	
+				  <div class="page-content login-screen-content">
+					<img src="img/leaves.png" class="img-fluid position-left" width="18%" alt="">  
+					<div class="login-screen-title">Welcome back!</div>
+					 <h3 class="text-align-center margin-text">Log in to your account</h3> 
+					<!-- Login form -->
+					<form id="form-login">
+					  <div class="list block">
+						<ul>
+						  <li class="item-content item-input">
+							<div class="item-inner">
+							  <div class="item-input-wrap">
+								<input type="email" name="username" placeholder="E-mail" required validate>
+								<span class="input-clear-button"></span>
+							  </div>
+							</div>
+						  </li>
+						  <li class="item-content item-input">
+							<div class="item-inner">
+							  <div class="item-input-wrap">
+								<input type="password" name="password" placeholder="Password" required validate>
+								<span class="input-clear-button"></span>
+							  </div>
+							</div>
+						  </li>
+						</ul>
+					  </div>
+					  <div class="list block">
+						<ul>
+						  <li>
+							<a href="#" class="button button-fill" id="btnLogin">Login</a>
+							<p class="small">Don’t have an account? <a href="#" class="link popup-open text-bold" data-popup="#popup-signup">Sign up</a></p>  
+						  </li>
+						</ul>
+					  </div>
+					</form>
+				  </div>
+				</div>
+			  </div>
+		</section>
+		
+		
+		<section class="popup" id="popup-signup">
+	
+	
+		<div class="block">
+			<img src="img/leaves.png" class="img-fluid position-left" width="18%" alt="">  
+			<h2 class="block-title-large text-align-center">Register</h2>
+			<form id="form-register">
+					  <div class="list block">
+						<ul>
+						<li class="item-content item-input">
+							<div class="item-inner">
+							  <div class="item-input-wrap">
+								<input type="text" name="name" placeholder="Full Name" required validate>
+								<span class="input-clear-button"></span>
+							  </div>
+							</div>
+						  </li>  
+						<li class="item-content item-input">
+							<div class="item-inner">
+							  <div class="item-input-wrap">
+								<input type="email" name="username" placeholder="E-mail" required validate>
+								<span class="input-clear-button"></span>
+							  </div>
+							</div>
+						  </li>
+						  <li class="item-content item-input">
+							<div class="item-inner">
+							  <div class="item-input-wrap">
+								<input type="password" name="password" placeholder="Password" required validate>
+								<span class="input-clear-button"></span>
+							  </div>
+							</div>
+						  </li>
+						<li class="item-content item-input">
+							<div class="item-inner">
+							  <div class="item-input-wrap">
+								<input type="password" name="password" placeholder="Confirm Password" required validate>
+								<span class="input-clear-button"></span>
+							  </div>
+							</div>
+						  </li>	
+						</ul>
+					  </div>
+					  <div class="list block">
+						<ul>
+						  <li>
+							<a href="#" class="button button-fill" id="btnLogin">Sign Up</a>  
+						  </li>
+						</ul>
+					  </div>
+					</form>
+			<a href="#" class="button  popup-close">Cancel</a>
+		</div>
+		
+	
+	</section>
+		
+	</div>
+	
+	
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>
